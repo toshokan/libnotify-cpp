@@ -1,4 +1,4 @@
-#libnotify-cpp
+# libnotify-cpp
 
 C++ bindings from Libnotify from GNOME.
 These bindings help to make the use of libnotify more consisted with other C++ code in your project by being object-oriented and making use of RAII and C++11.
