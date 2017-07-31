@@ -22,13 +22,6 @@ class LibnotifyNotification {
 		bool close(GError** = nullptr);
 		int getClosedReason();
 
-		std::string appName() const;
-		std::string body() const;
-		int closedReason() const;
-		std::string iconName() const;
-		int id() const;
-		std::string summary() const;
-
 	private:
 		NotifyNotification* notification;
 };
